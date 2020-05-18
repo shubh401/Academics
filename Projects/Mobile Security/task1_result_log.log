@@ -1,0 +1,68 @@
+01-24 18:09:22.114   214   247 I Choreographer: Skipped 59 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:22.326  1187  1187 D EX5_APP2_MainActivity: Received Intent { flg=0x10000000 cmp=saarland.cispa.trust.mobisec.testapp2/.MainActivity (has extras) }
+01-24 18:09:22.329  1187  1187 D EX5_App2_TestUtils: Test startActivity SUCCEEDED :)
+01-24 18:09:22.583   214   637 I WindowManager: Failed to capture screenshot of Token{d3fd8e5 ActivityRecord{63f6fdc u0 saarland.cispa.trust.mobisec.testapp2/.MainActivity t3 f}} appWin=Window{8f93f9d u0 Starting saarland.cispa.trust.mobisec.testapp2} drawState=4
+01-24 18:09:22.660   214   247 I Choreographer: Skipped 116 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:22.719   214   235 W art     : Long monitor contention with owner Binder:214_7 (637) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:6954) waiters=0 in void com.android.server.am.ActivityStackSupervisor$ActivityStackSupervisorHandler.activityIdleInternal(com.android.server.am.ActivityRecord) for 251ms
+01-24 18:09:22.873   214   247 I Choreographer: Skipped 89 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:23.137   214   247 I Choreographer: Skipped 94 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:23.255   214   247 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:23.299   214   247 W WindowManager: Failed looking up window
+01-24 18:09:23.299   214   247 W WindowManager: java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@2a7de74 does not exist
+01-24 18:09:23.299   214   247 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9415)
+01-24 18:09:23.299   214   247 W WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9406)
+01-24 18:09:23.299   214   247 W WindowManager: 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2387)
+01-24 18:09:23.299   214   247 W WindowManager: 	at com.android.server.wm.Session.remove(Session.java:193)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.os.Looper.loop(Looper.java:154)
+01-24 18:09:23.299   214   247 W WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+01-24 18:09:23.299   214   247 W WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+01-24 18:09:23.394  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:09:23.395  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_sendBroadcast
+01-24 18:09:23.443   214   415 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+01-24 18:09:23.466  1187  1187 D EX5_APP2_Receiver: Received Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp2/.Receiver (has extras) }
+01-24 18:09:23.467  1187  1187 D EX5_App2_TestUtils: Test sendBroadcast SUCCEEDED :)
+01-24 18:09:23.483  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:09:23.484  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_startService
+01-24 18:09:23.530  1187  1204 D EX5_APP2_Service: Received Intent { cmp=saarland.cispa.trust.mobisec.testapp2/.Service (has extras) }
+01-24 18:09:23.531  1187  1204 D EX5_App2_TestUtils: Test startService SUCCEEDED :)
+01-24 18:09:23.570  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:09:23.571  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_startActivityPI
+01-24 18:09:23.625   214   478 I ActivityManager: Start proc 1205:saarland.cispa.trust.mobisec.testapp3/u0a58 for broadcast saarland.cispa.trust.mobisec.testapp3/.RelayReceiver
+01-24 18:09:23.656  1205  1205 W art     : Unknown instruction set features for ARM CPU variant (generic) using conservative defaults
+01-24 18:09:23.926  1205  1205 W System  : ClassLoader referenced unknown path: /data/app/saarland.cispa.trust.mobisec.testapp3-1/lib/arm
+01-24 18:09:23.957  1205  1205 W obisec.testapp3: type=1400 audit(0.0:17): avc: denied { search } for name="saarland.cispa.trust.mobisec.testapp3" dev="mtdblock1" ino=7540 scontext=u:r:corp_app:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+01-24 18:09:23.957  1205  1205 W obisec.testapp3: type=1400 audit(0.0:18): avc: denied { search } for name="saarland.cispa.trust.mobisec.testapp3" dev="mtdblock1" ino=7540 scontext=u:r:corp_app:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+01-24 18:09:23.967  1205  1205 W obisec.testapp3: type=1400 audit(0.0:19): avc: denied { search } for name="saarland.cispa.trust.mobisec.testapp3" dev="mtdblock1" ino=14319 scontext=u:r:corp_app:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+01-24 18:09:23.967  1205  1205 W obisec.testapp3: type=1400 audit(0.0:20): avc: denied { search } for name="saarland.cispa.trust.mobisec.testapp3" dev="mtdblock1" ino=14319 scontext=u:r:corp_app:s0 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+01-24 18:09:23.968  1205  1205 W ContextImpl: Failed to ensure /data/user/0/saarland.cispa.trust.mobisec.testapp3/cache: mkdir failed: EACCES (Permission denied)
+01-24 18:09:23.973  1205  1205 W ContextImpl: Failed to ensure /data/user_de/0/saarland.cispa.trust.mobisec.testapp3/code_cache: mkdir failed: EACCES (Permission denied)
+01-24 18:09:24.045   214   637 I ActivityManager: START u0 {cmp=saarland.cispa.trust.mobisec.testapp2/.MainActivity (has extras)} from uid 10056 on display 0
+01-24 18:09:24.047   214   637 W ActivityManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { cmp=saarland.cispa.trust.mobisec.testapp2/.MainActivity (has extras) }
+01-24 18:09:24.223  1205  1205 D EX5_APP3_RelayReceiver: Relayed intent Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.RelayReceiver (has extras) }
+01-24 18:09:24.301  1187  1187 D EX5_APP2_MainActivity: Received Intent { flg=0x10000000 cmp=saarland.cispa.trust.mobisec.testapp2/.MainActivity (has extras) }
+01-24 18:09:24.304  1187  1187 E EX5_App2_TestUtils: Test startActivityPI: Sender OK 10058 <-> 10058
+01-24 18:09:24.305  1187  1187 I EX5_App2_TestUtils: Test startActivityPI: Creator OK 10056 <-> 10056
+01-24 18:09:24.305  1187  1187 D EX5_App2_TestUtils: Test startActivityPI SUCCEEDED :)
+01-24 18:09:24.344  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:09:24.344  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_sendBroadcastPI
+01-24 18:09:24.404   214   247 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:24.537   214   247 I Choreographer: Skipped 86 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:24.573   214   229 I WindowManager: Failed to capture screenshot of Token{b3e47d3 ActivityRecord{973adc2 u0 saarland.cispa.trust.mobisec.testapp2/.MainActivity t4 f}} appWin=Window{8c7b028 u0 Starting saarland.cispa.trust.mobisec.testapp2} drawState=1
+01-24 18:09:24.715   214   247 I Choreographer: Skipped 114 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:24.830   214   247 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+01-24 18:09:25.490  1205  1205 D EX5_APP3_RelayReceiver: Relayed intent Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.RelayReceiver (has extras) }
+01-24 18:09:25.504  1187  1187 D EX5_APP2_Receiver: Received Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp2/.Receiver (has extras) }
+01-24 18:09:25.505  1187  1187 E EX5_App2_TestUtils: Test sendBroadcastPI: Sender OK 10058 <-> 10058
+01-24 18:09:25.506  1187  1187 I EX5_App2_TestUtils: Test sendBroadcastPI: Creator OK 10056 <-> 10056
+01-24 18:09:25.508  1187  1187 D EX5_App2_TestUtils: Test sendBroadcastPI SUCCEEDED :)
+01-24 18:09:25.528  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:09:25.529  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_startServicePI
+01-24 18:09:25.610  1205  1205 D EX5_APP3_RelayReceiver: Relayed intent Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.RelayReceiver (has extras) }
+01-24 18:09:25.630  1187  1224 D EX5_APP2_Service: Received Intent { cmp=saarland.cispa.trust.mobisec.testapp2/.Service (has extras) }
+01-24 18:09:25.631  1187  1224 E EX5_App2_TestUtils: Test startServicePI: Sender OK 10058 <-> 10058
+01-24 18:09:25.632  1187  1224 I EX5_App2_TestUtils: Test startServicePI: Creator OK 10056 <-> 10056
+01-24 18:09:25.632  1187  1224 D EX5_App2_TestUtils: Test startServicePI SUCCEEDED :)

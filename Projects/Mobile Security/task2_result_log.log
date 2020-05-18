@@ -1,0 +1,42 @@
+01-24 18:10:22.496  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.ACTION_CHECK_CONTEXT cat=[mobisec.intent.category.TEST_START_TASK2] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver }
+01-24 18:10:22.506  1171  1171 D EX5_APP1_SyncRecv: getContext()=u:r:corp_app:s0
+01-24 18:10:22.507  1171  1171 I EX5_APP1_SyncRecv: Correct type :) u:r:corp_app:s0
+01-24 18:10:22.530  1225  1225 D AndroidRuntime: Shutting down VM
+01-24 18:10:22.601  1187  1187 D EX5_APP2_ClipSyncRecv: getContext()=u:r:untrusted_app:s0:c512,c768
+01-24 18:10:22.602  1187  1187 I EX5_APP2_ClipSyncRecv: Correct type :) u:r:untrusted_app:s0:c512,c768
+01-24 18:10:22.625  1225  1225 W art     : Suspending all threads took: 24.764ms
+01-24 18:10:22.635  1205  1205 D EX5_APP3_ClipSyncRecv: Received Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.ClipboardSyncReceiver (has extras) }
+01-24 18:10:22.638  1205  1205 D EX5_APP3_ClipSyncRecv: getContext()=u:r:corp_app:s0
+01-24 18:10:22.639  1205  1205 I EX5_APP3_ClipSyncRecv: Correct type :) u:r:corp_app:s0
+01-24 18:10:22.775  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:22.777  1171  1171 D EX5_APP1_SyncRecv: Waiting for other apps to report in (1/2)
+01-24 18:10:22.793  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:22.794  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_registerListener
+01-24 18:10:22.814  1171  1171 D EX5_APP1_SyncRecv: Registered listener
+01-24 18:10:22.847  1187  1187 D EX5_APP2_ClipSyncRecv: Registered listener
+01-24 18:10:22.867  1205  1205 D EX5_APP3_ClipSyncRecv: Received Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.ClipboardSyncReceiver (has extras) }
+01-24 18:10:22.880  1205  1205 D EX5_APP3_ClipSyncRecv: Registered listener
+01-24 18:10:22.903  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:22.904  1171  1171 D EX5_APP1_SyncRecv: Waiting for other apps to report in (1/2)
+01-24 18:10:22.918  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:22.918  1171  1171 D EX5_APP1_SyncRecv: All listeners registered, continuing with setting clip
+01-24 18:10:22.934  1205  1205 I EX5_APP3_ClipSyncRecv: Received onPrimaryClipChanged()
+01-24 18:10:22.939  1171  1171 D EX5_APP1_SyncRecv: Set clip with FROM=u:r:corp_app:s0
+01-24 18:10:22.955  1171  1171 D EX5_APP1_SyncRecv: Could read clip and all clip meta-info for expected ctx=u:r:corp_app:s0
+01-24 18:10:22.969  1171  1171 I EX5_APP1_SyncRecv: Received onPrimaryClipChanged()
+01-24 18:10:22.985  1187  1187 E EX5_APP2_ClipSyncRecv: Cannot see the clip just set.
+01-24 18:10:23.008  1205  1205 D EX5_APP3_ClipSyncRecv: Received Intent { flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp3/.ClipboardSyncReceiver (has extras) }
+01-24 18:10:23.027  1205  1205 D EX5_APP3_ClipSyncRecv: Could read clip and all clip meta-info for expected ctx=u:r:corp_app:s0
+01-24 18:10:23.049  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:23.050  1171  1171 D EX5_APP1_SyncRecv: Waiting for other apps to report in
+01-24 18:10:23.062  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:23.063  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_setUntrustedClip
+01-24 18:10:23.095  1205  1205 I EX5_APP3_ClipSyncRecv: Received onPrimaryClipChanged()
+01-24 18:10:23.099  1171  1171 I EX5_APP1_SyncRecv: Received onPrimaryClipChanged()
+01-24 18:10:23.102  1187  1187 D EX5_APP2_ClipSyncRecv: Set clip with FROM=u:r:untrusted_app:s0:c512,c768
+01-24 18:10:23.116  1187  1187 D EX5_APP2_ClipSyncRecv: Could read clip and all clip meta-info for expected ctx=u:r:untrusted_app:s0:c512,c768
+01-24 18:10:23.131  1187  1187 I EX5_APP2_ClipSyncRecv: Received onPrimaryClipChanged()
+01-24 18:10:23.136  1171  1171 D EX5_APP1_SyncRecv: TestSyncReceiver: intent=Intent { act=mobisec.intent.action.TEST_RESULT cat=[mobisec.intent.category.TEST_RESULT] flg=0x10 cmp=saarland.cispa.trust.mobisec.testapp1/.TestSyncReceiver (has extras) }
+01-24 18:10:23.137  1171  1171 D EX5_APP1_SyncRecv: Continuing with test_readUntrustedClip
+01-24 18:10:23.156  1171  1171 D EX5_APP1_SyncRecv: Could read clip and all clip meta-info for expected ctx=u:r:untrusted_app:s0:c512,c768
+01-24 18:10:23.157  1171  1171 D EX5_APP1_SyncRecv: Finished last test for Task 2
